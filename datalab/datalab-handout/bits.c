@@ -184,7 +184,7 @@ int isTmax(int x) {
  *   Rating: 2
  */
 int allOddBits(int x) {
-  //x=0xAAAAAAAA;
+  
   int oddnum=0x55;
   //printf(" ans=%x\n",~(x|oddnum|(oddnum<<8)|(oddnum<<16)|(oddnum<<24)));
   return !(~(x|oddnum|(oddnum<<8)|(oddnum<<16)|(oddnum<<24)));
