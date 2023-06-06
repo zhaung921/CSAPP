@@ -329,7 +329,6 @@ int floatFloat2Int(unsigned uf) {
     unsigned int nfrac=(1<<24)&frac;
     /**
     printf("e=%d\n",e);
-    printf("e-127=%d\n",e-127);
     printf("sig=%x\n",sig);
     printf("frac=%x\n",frac);
     **/
